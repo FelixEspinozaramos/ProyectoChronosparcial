@@ -1,0 +1,134 @@
+header {
+  background-color: gainsboro;
+}
+
+header .container {
+  display: flex;
+  align-items: center;
+}
+
+header nav {
+  display: flex;
+  text-align: center;
+  padding-bottom: 10px;
+}
+
+header a {
+  padding: 5px 12px;
+  text-decoration: none;
+  font-weight: bold;
+  color: black;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+h1 {
+  font-size: 1.5em;
+  color: black;
+}
+
+p.grupo {
+  color: black;
+  font-size: 1.5em;
+  justify-content: center;
+}
+
+p.logo {
+  color: blue;
+  font-size: 2.5em;
+}
+
+h2 {
+  color: aliceblue;
+}
+
+p {
+  color: aliceblue;
+  border: 10ch;
+}
+
+body {
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.segunda {
+  color: blue;
+}
+
+.encabezado {
+  font-size: 0.5em;
+  font-weight: bold;
+  padding: 10px 20px;
+  border-radius: 10px;
+}
+
+#somos {
+  text-align: center;
+  padding: 200px;
+}
+
+#hero {
+  display: flex;
+  align-items: center;
+  background-image: url(https://aprendiendoaprogramar.es/wp-content/uploads/2021/09/8-tipos-diferentes-de-programadores.jpeg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
+
+#hero p {
+  display: none;
+}
+
+#hero .container {
+  padding: 100px;
+}
+
+#hero .container h2 {
+  margin-top: 0;
+  font-size: 3em;
+}
+
+#hero .carta {
+  padding: 50px;
+  margin: 15px;
+  border-radius: 18px;
+}
+
+.carta:first-child {
+  background-color: goldenrod;
+
+}
+
+.carta:nth-child(2) {
+  background-color: goldenrod;
+}
+
+.carta:nth-child(3) {
+  background-color: goldenrod;
+
+}
+
+@media (min-width: 720px) {
+  header {
+    position: fixed;
+    width: 100%;
+  }
+
+  header .container {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  header .nav {
+    flex-direction: row;
+    padding-right: 20px;
+  }
+
+  #somos .texto {
+    text-align: center;
+    padding: 0px 30px;
+  }
+}

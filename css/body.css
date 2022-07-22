@@ -1,0 +1,184 @@
+header {
+  background-color: gainsboro;
+}
+
+header .container {
+  display: flex;
+  align-items: center;
+}
+
+header nav {
+  display: flex;
+  text-align: center;
+  padding-bottom: 10px;
+}
+
+header a {
+  padding: 5px 12px;
+  text-decoration: none;
+  font-weight: bold;
+  color: black;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+h1 {
+  font-size: 1.5em;
+  color: black;
+}
+
+p.grupo {
+  color: black;
+  font-size: 1.5em;
+  justify-content: center;
+}
+
+p.logo {
+  font-family: 'Gill Sans', 'Gill Sans MT', Arial, Helvetica, sans-serif, 'Trebuchet MS', sans-serif;
+  color: blue;
+  font-size: 2.5em;
+}
+
+h2 {
+  color: aliceblue;
+}
+
+h3 {
+  color: aliceblue;
+  position: relative;
+}
+
+body {
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+
+.segunda {
+  color: blue;
+}
+
+#somos {
+  text-align: center;
+  padding: 120px;
+}
+#somos .container {
+  display: flex;
+  justify-content: center;
+}
+#somos .texto {
+  width: 50%;
+  text-align: initial;
+  padding: 0px 10px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+#somos .img-container {
+  display: block;
+  background-image: url(https://jobsgo.vn/blog/wp-content/uploads/2021/06/software-developers-dang-ngay-cang-mo-rong-1.jpg);
+  background-size: cover;
+  background-position: center center;
+  width: 600px;
+  height: 600px;
+  padding: 12px;
+}
+
+#participantes {
+  background-color: rgb(30, 30, 30);
+  color: white;
+  width: 100%;
+  height: 600px;
+}
+
+#participantes .container {
+  text-align: center;
+  padding: 32px;
+}
+
+
+#participantes h2 {
+  margin-top: 0;
+  justify-items: flex-end;
+}
+
+#participantes .carta {
+  background-position: center center;
+  background-size: cover;
+  padding: 100px;
+  margin: 12px;
+  border-radius: 15px;
+}
+
+.carta:first-child {
+  position: relative;
+  background-image: linear-gradient(0deg,
+      rgba(0, 0, 0, 0.5),
+      rgba(0, 0, 0, 0.5)), url(https://cms.modumb.com/storage/videos/_635x585/arreglo-basico-de-barba.jpg);
+      background-size: cover;
+      background-position: center center;
+  margin: 12px;
+  height: 400px;
+}
+
+.carta:nth-child(2) {
+  background-image: linear-gradient(0deg,
+      rgba(0, 0, 0, 0.5),
+      rgba(0, 0, 0, 0.5)), url(https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/barba-de-gillette-1606494417.jpg?crop=0.473xw:1.00xh;0.0673xw,0&resize=640:*);
+  background-position: center center;
+  background-size: cover;
+  margin: 12px;
+  height: 400px;
+}
+
+.carta:nth-child(3) {
+  background-image: linear-gradient(0deg,
+      rgba(0, 0, 0, 0.5),
+      rgba(0, 0, 0, 0.5)), url(https://ath2.unileverservices.com/wp-content/uploads/sites/13/2022/04/27193642/cortes-de-pelo-con-barba-19.jpg);
+  background-position: center center;
+  margin: 12px;
+  height: 400px;
+}
+
+#participantes h3{
+  justify-content: end;
+  text-align: center;
+
+}
+
+@media (min-width: 720px) {
+  header {
+    position: fixed;
+    width: 100%;
+  }
+
+  header .container {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  header .nav {
+    flex-direction: row;
+    padding-right: 20px;
+  }
+
+  #somos .texto {
+    text-align: center;
+    padding: 0px 30px;
+  }
+  #participantes .nosotros {
+    display: flex;
+    justify-content: center;
+  }
+  #participantes p{
+    display: block;
+  }
+  #participantes .carta{
+    padding: 5px;
+  }
+  #participantes h3 {
+    margin-top: 0;
+  }
+}

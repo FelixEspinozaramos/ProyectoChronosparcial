@@ -127,7 +127,7 @@ html {
 }
 
 h1 {
-    font-size: 2.5em;
+    font-size: 2.1em;
     color: #fff;
     float: right;
     margin-right: 80px;
@@ -135,7 +135,7 @@ h1 {
 
 p.grupo {
     color: #fff;
-    font-size: 1.8em;
+    font-size: 1.2em;
 
 }
 
@@ -179,7 +179,9 @@ h3 {
     padding: 0px 1px;
     margin-right: 2px;
 }
-
+.banner h2{
+    
+}
 .texto {
     z-index: 1;
     width: 100%;
